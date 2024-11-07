@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Custom Dialog Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="open-modal-btn-wrapper">
+        <button class="open-modal-btn">Go ahead for further process.</button>
+    </div>
+
+    <div class="modal-overlay hide">
+        <div class="modal-wrapper">
+            <div class="close-btn-wrapper">
+                <button class="close-modal-btn">Close</button>
+            </div>
+            <h1>Welcome to Our Site!</h1>
+            <div class="modal-content">
+                <p>Fill the following information!</p>
+                <input type="text" id="name" placeholder="Enter your name" required />
+                <input type="email" id="email" placeholder="Enter your email" required />
+                <button class="submit-btn">Submit</button>
+                <p id="success-message" class="hide">Thank you for your submission!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
